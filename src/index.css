@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cormorant Garamond', Garamond, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom Rose-Gold Aesthetic Utilities */
+.bg-rose-radial {
+  background: radial-gradient(circle at 70% 30%, rgba(248, 222, 218, 0.7) 0%, rgba(253, 245, 244, 0.95) 60%, #FAF5F4 100%);
+}
+
+.text-rose-gold {
+  color: #C97A72;
+}
+
+.bg-rose-gold {
+  background-color: #D97D74;
+}
+
+.border-rose-subtle {
+  border-color: rgba(224, 159, 149, 0.25);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF5F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5B2AA;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C97A72;
+}
+

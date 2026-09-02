@@ -1,0 +1,6 @@
+{
+  "name": "Karan's Jewelry",
+  "description": "Luxury fine jewellery shopping experience with catalog and stock management, secure checkout, and customer reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
